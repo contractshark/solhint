@@ -1,5 +1,5 @@
 {
-  "name": "solhint-portable",
+  "name": "@terasum/solhint-portable",
   "version": "3.2.1",
   "description": "Solidity Code Linter Portable Version",
   "main": "lib/index.js",
@@ -14,7 +14,10 @@
     "smart-contracts"
   ],
   "homepage": "https://protofire.github.io/solhint/",
-  "repository": "https://github.com/terasum/solhint-portable",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terasum/solhint-portable.git"
+  },
   "scripts": {
     "exec-tests": "nyc mocha --recursive && nyc report --reporter=text-lcov | coveralls",
     "test:coverage": "npm run exec-tests",
@@ -24,14 +27,15 @@
     "docs": "node scripts/generate-rule-docs.js",
     "debug": "node scripts/debug.js"
   },
-  "author": "Ilya Drabenia <ilya.drobenya@gmail.com>, Chen Quan <terasum@163.com>",
+  "author": "Ilya Drabenia <ilya.drobenya@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@solidity-parser/parser": "^0.8.0",
     "ajv": "^6.12.4",
     "antlr4": "4.8.0",
     "ast-parents": "^0.0.1",
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.20",
+    "prettier": "^1.14.3"
   },
   "devDependencies": {
     "@stryker-mutator/core": "^2.5.0",
@@ -53,5 +57,13 @@
   },
   "optionalDependencies": {
     "prettier": "^1.14.3"
+  },
+  "bugs": {
+    "url": "https://github.com/terasum/solhint-portable/issues"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
   }
 }
