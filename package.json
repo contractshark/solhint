@@ -1,6 +1,6 @@
 {
   "name": "solhint-portable",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Solidity Code Linter Portable Version",
   "main": "lib/index.js",
   "keywords": [
