@@ -2,26 +2,27 @@
   <img src="solhint.png">
 </p>
 <p align="center">
-  By <a href="https://protofire.io/">Protofire</a>
+  Fork from <a href="https://protofire.io/">Protofire</a>
 </p>
 
+Donate to Protofire!
 [![Donate with Ethereum](https://en.cryptobadges.io/badge/micro/0xe8cdf02efd8ab0a490d7b2cb13553389c9bc932e)](https://en.cryptobadges.io/donate/0xe8cdf02efd8ab0a490d7b2cb13553389c9bc932e)
 
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/solhint/Lobby)
-[![Build Status](https://travis-ci.org/protofire/solhint.svg?branch=master)](https://travis-ci.org/protofire/solhint)
-[![NPM version](https://badge.fury.io/js/solhint.svg)](https://npmjs.org/package/solhint)
-[![Coverage Status](https://coveralls.io/repos/github/protofire/solhint/badge.svg?branch=master)](
-https://coveralls.io/github/protofire/solhint?branch=master)
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/protofire/solhint/master/LICENSE)
-[![dependencies Status](https://david-dm.org/protofire/solhint/status.svg)](https://david-dm.org/protofire/solhint)
-[![devDependencies Status](https://david-dm.org/protofire/solhint/dev-status.svg)](https://david-dm.org/protofire/solhint?type=dev)
+The new bandage
+[![NPM version](https://badge.fury.io/js/@terasum/solhint-portable.svg)](https://npmjs.org/package/solhint-portable)
+[![Coverage Status](https://coveralls.io/repos/github/terasum/solhint-portable/badge.svg?branch=master)](
+https://coveralls.io/github/terasum/solhint-portable?branch=master)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/terasum/solhint-portable/master/LICENSE)
+[![dependencies Status](https://david-dm.org/terasum/solhint-portable/status.svg)](https://david-dm.org/terasum/solhint-portable)
+[![devDependencies Status](https://david-dm.org/terasum/solhint-portable/dev-status.svg)](https://david-dm.org/terasum/solhint-portable?type=dev)
 
-This is an open source project for linting [Solidity](http://solidity.readthedocs.io/en/develop/) code. This project
-provides both **Security** and **Style Guide** validations.
+这是一个用于检查 [Solidity](http://solidity.readthedocs.io/en/develop/) 代码语法错误以及缺陷的项目. 这个项目提供了 **安全** and **代码风格** 的检查.
 
-## Installation
+本项目从 [https://github.com/protofire/sohint](protofire/sohint) fork 过来，目标是与浏览器完全兼容。
 
-You can install Solhint using **npm**:
+## 安装
+
+你可以通过 **npm** 进行安装:
 
 ```sh
 npm install -g solhint
